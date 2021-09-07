@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <br/>
+    <ul>
+        <a href="index.html"><li>Inicio</li></a>
+        <a href="contenido.html"><li>Contenido</li></a>
+        <a href="contacto.html"><li>Contacto</li></a>
+        
+    </ul>
+    <hr/>
+    <h1>Formulario de contacto</h1>
+    <form action="notificacion.html">
+        <p>
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="nombre" placeholder="Nombre completo">
+        </p>
+        <p>
+            <label for="biografia">Biografía</label><br/>
+            <textarea name="biografia"></textarea>
+        </p>
+        <p>
+            <label for="edad">Edad</label><br/>
+            <select name="edad" >
+                <option value="tercera">Mayor de 65</option>
+                <option value="adulto">Mayor de 18</option>
+                <option value="menor">Menor de 18</option>
+            </select>
+        </p>
+        <input type="submit" value="Enviar biografía">
+    </form>
+    
+</body>
+</html>

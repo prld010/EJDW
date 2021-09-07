@@ -20,4 +20,4 @@ var peliculaEspanol = function(nombre){
 var pelicula = function(nombre, agno){
     return "la pelicula que seleccionaste es:"+nombre;
 }
-pelicul("Harry Potter - El prisionero de Azkaban");
+pelicula("Harry Potter - El prisionero de Azkaban");

@@ -7,9 +7,9 @@ var participántes="todos los ingenieros de sistemas"
 var cadena= num.toString();
 console.log(num);
 console.log(cadena);
-var mayuscu=bienvenida.toUpperCase();
+var mayuscu=bienvenida.toUpperCase();//Convierte a mayusculas 
 console.log(mayuscu);
-var minuscu=bienvenida.toLowerCase();
+var minuscu=bienvenida.toLowerCase();//Convierte a minusculas
 console.log(minuscu);
 
 //Logitud de un texto
